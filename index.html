@@ -17,6 +17,17 @@
                 $(".navbar h3").click(function(){
                     location.href = "http://www.accordance10bible.com/" + $(this).text();
                 });
+                $(".splashbutton").hover(function(){
+                    $(this).css("background-color", "rgba(0, 0, 0, 0.1)");
+                }, function(){
+                    $(this).css("background-color", "rgba(0, 0, 0, 0)");
+                });
+                $("#buynowbutton").click(function(){
+                    location.href = "http://www.accordance10bible.com/Products";
+                });
+                $("#upgradenowbutton").click(function(){
+                    location.href = "http://www.accordance10bible.com/Upgrade";
+                });
             });
         </script>
     </head>
@@ -36,6 +47,8 @@
             </div>
             <div class="splash">
                 <img src="Assets/main.png" alt="Accordance 10">
+                <button class= "splashbutton" id="buynowbutton"></button>
+                <button class= "splashbutton" id="upgradenowbutton"></button>
                 <div class="splashnav">
                     <p>Accordance 10</p>
                     <span>/</span>
@@ -98,7 +111,7 @@
                 <div class="linkbox">
                     <h5>Store</h5>
                     <a href="http://www.accordance10bible.com/Products">Products</a>
-                    <a href="http://www.accordance10bible.com/Upgrades">Upgrades</a>
+                    <a href="http://www.accordance10bible.com/Upgrade">Upgrades</a>
                     <a href="http://www.accordance10bible.com/PurchaseOptions">Purchase Options</a>
                     <a href="http://www.accordance10bible.com/Releases">New Releases</a>
                     <a href="http://www.accordance10bible.com/Specials">Current Specials</a>
