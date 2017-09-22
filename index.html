@@ -4,6 +4,18 @@
         <meta charset="utf-8">
         <title>Accordance 10</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        <script>
+            $(document).ready(function(){
+                $(".navbar h3").hover(function(){
+                    $(this).css("background-color", "rgba(128, 128, 128, 0.5)");
+                    $(this).css("color", "black");
+                }, function(){
+                    $(this).css("background-color", "rgba(0, 0, 0, 0)");
+                    $(this).css("color", "#464545");
+                });
+            });
+        </script>
     </head>
     <body>
         <div class="wrapper">

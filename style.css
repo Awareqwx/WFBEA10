@@ -137,7 +137,7 @@
     background: -moz-linear-gradient(#4695D6, #3273AF);
     background: linear-gradient(#4695D6, #3273AF);
     border-radius: 5px;
-    border: solid #3E84C2;
+    border: 0;
     margin-left: 10px;
 }
 
@@ -196,7 +196,7 @@
     color: white;
     font-weight: bold;
     border-radius: 5px;
-    border: solid #86B3F8;
+    border: 0;
     border-top: solid skyblue;
 }
 
